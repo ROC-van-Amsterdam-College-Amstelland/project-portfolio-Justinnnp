@@ -31,12 +31,60 @@
             </div>
             <div class="main-content-text">
                 <h1>Wie ben ik ?</h1>
-                <p>Ik ben een beginnend developer en ik ben al een aantal jaren bezig met coderen. Ik heb het altijd leuk gevonden om te doen. Op dit
+                <p>Ik ben een beginnend developer en ik ben al een aantal jaren bezig met coderen. Ik heb het altijd
+                    leuk gevonden om te doen. Op dit
                     moment doe ik de opleiding Applicatie Ontwikkelaar aan het ROC in Amstelveen. Hier leer ik HTML,
                     CSS, Javascript, Balsamiq. Naast coderen hou ik erg van sporten zoals fietsen, klimmen en naar de
-                    sportschool gaan. In mijn vrije tijd ben ik graag in de natuur bijvoorbeeld de bergen.</p>
+                    sportschool gaan. In mijn vrije tijd ben ik graag in de natuur bijvoorbeeld de bergen. In de
+                    toekomst wil ik gaan werken bij bedrijven waarvoor ik websites kan gaan maken.</p>
             </div>
-        </div>
+            <div class="main-content-slide">
+                <div class="slideshow-container">
+                    <div class="slideshow-inner">
+                        <div class="mySlides fade">
+
+                            <img src='image1.jpg' style='width: 100%; height:600px;' onclick="change(1)" class="img1"
+                                alt="Plaatje van Justin" />
+                            <div class="text">Justin Plein.</div>
+                        </div>
+
+                        <div class="mySlides fade">
+
+                            <img src='image2.jpg' style='width: 100%; height:600px;' onclick="change(2)" class="img2"
+                                alt="bikers" />
+                            <div class="text">Justin Plein klimmend.</div>
+                        </div>
+
+                        <div class="mySlides fade">
+
+                            <img src='image3.jpg' style='width: 100%; height:600px;' onclick="change(3)" class="img3"
+                                alt="avicii" />
+                            <div class="text">Justin Plein werkend.</div>
+                        </div>
+
+                        <div class="mySlides fade">
+
+                            <img src='image4.jpg' style='width: 100%; height:600px;' onclick="change(4)" class="img4"
+                                alt="pelican" />
+                            <div class="text">Justin Plein's kat.</div>
+                        </div>
+
+                    </div>
+
+
+                    <a class="prev" onclick='plusSlides(-1)'>&#10094;</a>
+                    <a class="next" onclick='plusSlides(1)'>&#10095;</a>
+                </div>
+                <br />
+
+
+                <div style='text-align: center;'>
+                    <span class="dot" onclick='currentSlide(1)'></span>
+                    <span class="dot" onclick='currentSlide(2)'></span>
+                    <span class="dot" onclick='currentSlide(3)'></span>
+                    <span class="dot" onclick='currentSlide(4)'></span>
+                </div>
+            </div>
     </main>
     <footer>
         <div class="footer-nav">
@@ -45,6 +93,7 @@
             </ul>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
