@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.active {
+    width: 100%;
+    background-color: lightgrey;
+}
+.nav-bar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+.nav-bar a {
+    padding: 15px 8px 6px 5px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+.nav-bar a:hover {
+    color: #f1f1f1;
+    cursor: pointer;
+}
