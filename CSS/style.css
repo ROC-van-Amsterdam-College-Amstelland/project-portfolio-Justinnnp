@@ -58,9 +58,13 @@ body {
     margin-left: 50%;
     padding: 10px;
 }
+.main-content-text #main-content-email {
+    margin-left: 810px;
+}
+
 
 .main-content-text h1 {
-    margin-left: 770px;
+    margin-left: 740px;
     padding: 10px;
     padding-top: 50px;
 }
