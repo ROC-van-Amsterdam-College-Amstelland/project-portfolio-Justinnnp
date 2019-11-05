@@ -3,10 +3,10 @@
     padding: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 body {
     height: 1800px;
 }
-
 
 .active {
     width: 100%;
@@ -33,9 +33,11 @@ body {
     color: #818181;
     display: block;
 }
+
 .main-content {
     height: 2000px;
 }
+
 .nav-bar a:hover {
     color: #f1f1f1;
     cursor: pointer;
@@ -50,6 +52,7 @@ body {
     margin-left: 50%;
     padding: 10px;
 }
+
 .main-content-text h3 {
     margin-top: 10%;
     margin-left: 50%;
@@ -57,7 +60,7 @@ body {
 }
 
 .main-content-text h1 {
-    margin-left: 680px;
+    margin-left: 770px;
     padding: 10px;
     padding-top: 50px;
 }
@@ -67,6 +70,10 @@ body {
     margin-right: 300px;
     padding: 30px;
 }
+#maincontent-overmij {
+    height: 2100px;
+}
+
 .main-content-image img {
     height: 200px;
     width: 200px;
@@ -75,31 +82,39 @@ body {
     margin-bottom: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 #title-contact {
-    margin-left: 650px;
+    margin-left: 770px;
 }
+
 #title-projecten {
-    margin-left: 625px;
+    margin-left: 680px;
+}
+
+#title-home {
+    margin-left: 750px;
 }
 
 #plaatje-portfolio {
     height: 200px;
     width: 350px;
-    margin-left: 610px;
+    margin-left: 650px;
 }
 
 #plaatje-mondriaan {
     height: 200px;
     width: 300px;
-    margin-left: 640px;
+    margin-left: 700px;
 }
-#plaatje-vlag {
+
+#plaatje-NLvlag {
     height: 200px;
     width: 300px;
-    margin-left: 640px;
+    margin-left: 700px;
 }
+
 #NL-vlag {
-    margin-left: 630px;
+    margin-left: 700px;
 }
 
 .slideshow-container {
@@ -179,7 +194,8 @@ body {
     width: 400px;
     height: 300px;
 }
- .contact {
+
+.contact {
     background-color: white;
     padding: 10px 0;
     position: relative;
@@ -187,6 +203,7 @@ body {
     margin-left: 250px;
     margin-top: 30px;
 }
+
 .contact:before {
     position: absolute;
     content: '';
@@ -197,23 +214,27 @@ body {
     /* background: rgba(0, 0, 0, 0.5);  */
     z-index: -1;
 }
+
 .contact-items h2 {
     color: #fff;
     font-size: 40px;
     margin-bottom: 18px;
 }
+
 .contact-items input[type="text"] {
     border-radius: 10px;
     margin-bottom: 15px;
     padding: 15px;
     width: 50%;
 }
+
 .contact-items textarea {
     border-radius: 10px;
     height: 150px;
     padding: 15px;
     width: 50%;
 }
+
 .contact-items a {
     color: grey;
     display: block;
@@ -222,9 +243,86 @@ body {
     padding: 15px 80px;
     text-decoration: none;
     text-transform: uppercase;
-} 
+}
 
+#myImg, #myImg2, #myImg3, #myImg4 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 700px;
+    margin-top: 100px;
+}
 
+#myImg:hover, #myImg2:hover, #myImg3:hover, #myImg4:hover {
+    opacity: 0.7;
+}
+
+.name-tagg {
+    display: inline-block;
+}
+
+.name-tagg ul {
+    margin-left: 700px;
+    margin-top: 20px;
+}
+.name-tagg p {
+    margin-left: 700px;
+    margin-right: 300px;
+    margin-top: 20px;
+}
+
+.name-tagg ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover, .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 .footer-nav {
     position: fixed;
