@@ -49,6 +49,7 @@ body {
 }
 #title-projecten {
     margin-left: 640px;
+    margin-top: 50px;
 }
 .main-content-text h3 {
     margin-top: 10%;
@@ -74,6 +75,25 @@ body {
     margin-right: 300px;
     margin-bottom: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#plaatje-portfolio {
+    height: 200px;
+    width: 350px;
+    margin-left: 610px;
+}
+
+#plaatje-mondriaan {
+    height: 200px;
+    width: 300px;
+    margin-left: 640px;
+}
+#plaatje-vlag {
+    height: 200px;
+    width: 300px;
+    margin-left: 640px;
+}
+#NL-vlag {
+    margin-left: 630px;
 }
 
 .slideshow-container {
@@ -143,17 +163,6 @@ body {
     padding: 8px 12px;
     position: absolute;
     top: 0
-}
-
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 3px 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color .6s ease;
 }
 
 .active, .dot:hover {
