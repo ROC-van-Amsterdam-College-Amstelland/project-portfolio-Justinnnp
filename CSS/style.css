@@ -4,8 +4,9 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 body {
-    height: 2000px;
+    height: 1800px;
 }
+
 
 .active {
     width: 100%;
@@ -47,10 +48,6 @@ body {
     margin-left: 50%;
     padding: 10px;
 }
-#title-projecten {
-    margin-left: 640px;
-    margin-top: 50px;
-}
 .main-content-text h3 {
     margin-top: 10%;
     margin-left: 50%;
@@ -76,6 +73,13 @@ body {
     margin-bottom: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+#title-contact {
+    margin-left: 650px;
+}
+#title-projecten {
+    margin-left: 625px;
+}
+
 #plaatje-portfolio {
     height: 200px;
     width: 350px;
@@ -173,6 +177,52 @@ body {
     width: 400px;
     height: 300px;
 }
+ .contact {
+    background-color: white;
+    padding: 10px 0;
+    position: relative;
+    z-index: 1;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+.contact:before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    /* background: rgba(0, 0, 0, 0.5);  */
+    z-index: -1;
+}
+.contact-items h2 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 18px;
+}
+.contact-items input[type="text"] {
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 50%;
+}
+.contact-items textarea {
+    border-radius: 10px;
+    height: 150px;
+    padding: 15px;
+    width: 50%;
+}
+.contact-items a {
+    color: grey;
+    display: block;
+    font-size: 20px;
+    margin-top: 25px;
+    padding: 15px 80px;
+    text-decoration: none;
+    text-transform: uppercase;
+} 
+
+
 
 .footer-nav {
     position: fixed;
@@ -182,12 +232,14 @@ body {
     background-color: #111;
     color: #808080;
     text-align: center;
+    margin-left: 100px;
 }
 
 .footer-nav ul li {
     display: inline-block;
     margin: 10px 20px;
     color: black;
+    text-align: center;
 }
 
 .footer-nav ul li a {
