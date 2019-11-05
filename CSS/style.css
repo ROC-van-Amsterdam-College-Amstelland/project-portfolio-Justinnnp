@@ -3,6 +3,9 @@
     padding: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+body {
+    height: 2000px;
+}
 
 .active {
     width: 100%;
@@ -44,9 +47,17 @@
     margin-left: 50%;
     padding: 10px;
 }
+#title-projecten {
+    margin-left: 640px;
+}
+.main-content-text h3 {
+    margin-top: 10%;
+    margin-left: 50%;
+    padding: 10px;
+}
 
 .main-content-text h1 {
-    margin-left: 50%;
+    margin-left: 680px;
     padding: 10px;
     padding-top: 50px;
 }
@@ -55,6 +66,14 @@
     margin-left: 510px;
     margin-right: 300px;
     padding: 30px;
+}
+.main-content-image img {
+    height: 200px;
+    width: 200px;
+    margin-left: 670px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .slideshow-container {
