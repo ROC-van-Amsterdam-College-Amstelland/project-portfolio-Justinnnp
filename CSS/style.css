@@ -112,6 +112,7 @@
     text-align: center;
     background-color: #222428
 }
+
 .text:hover {
     text-decoration: underline;
     cursor: pointer;
