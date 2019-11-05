@@ -33,7 +33,9 @@ body {
     color: #818181;
     display: block;
 }
-
+.main-content {
+    height: 2000px;
+}
 .nav-bar a:hover {
     color: #f1f1f1;
     cursor: pointer;
