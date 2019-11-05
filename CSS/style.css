@@ -10,7 +10,7 @@ body {
 
 .active {
     width: 100%;
-    background-color: lightgrey;
+    color: white;
 }
 
 .nav-bar {
@@ -33,15 +33,73 @@ body {
     color: #818181;
     display: block;
 }
+.nav-bar a:hover {
+    color: #f1f1f1;
+    cursor: pointer;
+}
+.status-balk {
+    width: 400px;
+    height: 25px;
+    background-color: grey;
+    margin-left: 650px;
+    margin-top: 50px;;
+}
+.status-balk-erin {
+    background-color: black;
+    width: 40%;
+    height: 25px;
+    z-index: auto;
+}
+#status1 {
+    width: 40%;
+    height: 25px;
+}
+#status2{
+    width: 40%;
+    height: 25px;
+}
+#status3{
+    width: 30%;
+    height: 25px;
+}
+#status4{
+    width: 60%;
+    height: 25px;
+}
+#status5{
+    width: 60%;
+    height: 25px;
+}
+#status6{
+    width: 50%;
+    height: 25px;
+}
+#status7{
+    width: 40%;
+    height: 25px;
+}
+#status8{
+    width: 70%;
+    height: 25px;
+}
+#status9{
+    width: 45%;
+    height: 25px;
+}
+#status10{
+    width: 75%;
+    height: 25px;
+}
+#status11{
+    width: 40%;
+    height: 25px;
+}
 
 .main-content {
     height: 2000px;
 }
 
-.nav-bar a:hover {
-    color: #f1f1f1;
-    cursor: pointer;
-}
+
 
 .main-content-title {
     width: 100%;
@@ -62,6 +120,9 @@ body {
     margin-left: 810px;
 }
 
+.main-content-vaardigheden {
+    height: 3300px;
+}
 
 .main-content-text h1 {
     margin-left: 740px;
@@ -97,6 +158,9 @@ body {
 
 #title-home {
     margin-left: 750px;
+}
+#title-vaardigheden-title {
+    margin-left: 800px;
 }
 
 #plaatje-portfolio {
