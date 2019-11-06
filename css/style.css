@@ -1,0 +1,468 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    height: 1800px;
+}
+
+.active {
+    width: 100%;
+    color: white;
+}
+
+.nav-bar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+.nav-bar a {
+    padding: 22px 8px 6px 5px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+.nav-bar a:hover {
+    color: #f1f1f1;
+    cursor: pointer;
+}
+.status-balk {
+    width: 400px;
+    height: 25px;
+    background-color: grey;
+    margin-left: 650px;
+}
+.status-balk-erin {
+    background-color: black;
+    width: 40%;
+    height: 25px;
+    z-index: auto;
+    display: flex;
+    justify-content: center;
+}
+#status1 {
+    width: 40%;
+    height: 25px;
+    color: white;
+}
+#status2{
+    width: 40%;
+    height: 25px;
+    color: white;
+}
+#status3{
+    width: 30%;
+    height: 25px;color: white;
+}
+#status4{
+    width: 60%;
+    height: 25px;color: white;
+}
+#status5{
+    width: 60%;
+    height: 25px;color: white;
+}
+#status6{
+    width: 50%;
+    height: 25px;color: white;
+}
+#status7{
+    width: 40%;
+    height: 25px;color: white;
+}
+#status8{
+    width: 70%;
+    height: 25px;color: white;
+}
+#status9{
+    width: 45%;
+    height: 25px;
+    color: white;
+}
+#status10{
+    width: 75%;
+    height: 25px;
+    color: white;
+}
+#status11{
+    width: 40%;
+    height: 25px;
+    color: white;
+}
+
+.main-content {
+    height: 2000px;
+}
+
+
+
+.main-content-title {
+    width: 100%;
+    background-color: lightgrey;
+}
+
+.main-content-title h1 {
+    margin-left: 50%;
+    padding: 10px;
+}
+
+.main-content-text h3 {
+    margin-top: 10%;
+    margin-left: 50%;
+    padding: 10px;
+}
+.main-content-text #main-content-email {
+    margin-left: 810px;
+}
+
+.main-content-vaardigheden {
+    height: 2800px;
+}
+.main-content-contact {
+    height: 100px;
+}
+.main-content-home {
+    height: 2000px;
+}
+
+.main-content-text h1 {
+    margin-left: 740px;
+    padding: 10px;
+    padding-top: 50px;
+}
+
+.main-content-text p {
+    margin-left: 510px;
+    margin-right: 300px;
+    padding: 30px;
+}
+#maincontent-overmij {
+    height: 2200px;
+}
+
+.main-content-image img {
+    height: 200px;
+    width: 200px;
+    margin-left: 670px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#title-contact {
+    margin-left: 770px;
+}
+
+#title-projecten {
+    margin-left: 680px;
+}
+
+#title-home {
+    margin-left: 750px;
+}
+#title-vaardigheden-title {
+    margin-left: 800px;
+}
+
+#plaatje-portfolio {
+    height: 200px;
+    width: 350px;
+    margin-left: 650px;
+}
+
+#plaatje-mondriaan {
+    height: 200px;
+    width: 300px;
+    margin-left: 700px;
+}
+
+#plaatje-NLvlag {
+    height: 200px;
+    width: 300px;
+    margin-left: 700px;
+}
+#plaatje-NLvlag:hover, #plaatje-mondriaan:hover, #plaatje-portfolio:hover {
+    opacity: 0.7;
+}
+
+#NL-vlag {
+    margin-left: 700px;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    margin-right: 10%;
+    margin-top: 1px;
+    margin-bottom: 100px;
+    margin-left: 25%;
+}
+
+.mySlides {
+    display: none;
+    border: solid 1px black;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #222428;
+    font-weight: bold;
+    font-size: 30px;
+    transition: .6s ease;
+    border-radius: 0 3px 3px 0
+}
+
+.next {
+    right: -50px;
+    border-radius: 3px 3px 3px 3px
+}
+
+.prev {
+    left: -50px;
+    border-radius: 3px 3px 3px 3px
+}
+
+.prev:hover, .next:hover {
+    color: #f2f2f2;
+    background-color: rgba(0, 0, 0, 0.8)
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #222428
+}
+
+.text:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.enlarged {
+    width: 400px;
+    height: 300px;
+}
+.counter {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.contact {
+    background-color: white;
+    padding: 10px 0;
+    position: relative;
+    z-index: auto;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+.contact:before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    /* background: rgba(0, 0, 0, 0.5);  */
+    z-index: -1;
+}
+
+.contact-items h2 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 18px;
+}
+
+.contact-items input[type="text"] {
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 50%;
+}
+
+.contact-items textarea {
+    border-radius: 10px;
+    height: 150px;
+    padding: 15px;
+    width: 50%;
+}
+
+.contact-items a {
+    color: grey;
+    display: block;
+    font-size: 20px;
+    margin-top: 25px;
+    padding: 15px 80px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#myImg, #myImg2, #myImg3, #myImg4 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 700px;
+    margin-top: 100px;
+}
+
+#myImg:hover, #myImg2:hover, #myImg3:hover, #myImg4:hover {
+    opacity: 0.7;
+}
+
+.name-tagg {
+    display: inline-block;
+}
+
+.name-tagg ul {
+    margin-left: 700px;
+    margin-top: 20px;
+}
+.name-tagg p {
+    margin-left: 700px;
+    margin-right: 300px;
+    margin-top: 20px;
+}
+
+.name-tagg ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+.name-tagg a {
+    text-decoration: none;
+}
+.name-tagg a:hover {
+    text-decoration: underline;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover, .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+#result {
+    margin-left: 10px;
+}
+.likeButton {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.main-content-text p {
+    margin-left: 730px;
+}
+.likeButton button {
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    background-color: gray;
+}
+#button1 {
+    background-color: green;
+}
+#button2 {
+    background-color: red;
+}
+
+.footer-nav {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #111;
+    color: #808080;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.footer-nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    color: black;
+    text-align: center;
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    color: #808080;
+}
+
+.footer-nav ul li a:hover {
+    text-decoration: underline;
+}
