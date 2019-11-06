@@ -42,53 +42,58 @@ body {
     height: 25px;
     background-color: grey;
     margin-left: 650px;
-    margin-top: 50px;;
 }
 .status-balk-erin {
     background-color: black;
     width: 40%;
     height: 25px;
     z-index: auto;
+    display: flex;
+    justify-content: center;
 }
 #status1 {
     width: 40%;
     height: 25px;
+    color: white;
 }
 #status2{
     width: 40%;
     height: 25px;
+    color: white;
 }
 #status3{
     width: 30%;
-    height: 25px;
+    height: 25px;color: white;
 }
 #status4{
     width: 60%;
-    height: 25px;
+    height: 25px;color: white;
 }
 #status5{
     width: 60%;
-    height: 25px;
+    height: 25px;color: white;
 }
 #status6{
     width: 50%;
-    height: 25px;
+    height: 25px;color: white;
 }
 #status7{
     width: 40%;
-    height: 25px;
+    height: 25px;color: white;
 }
 #status8{
     width: 70%;
-    height: 25px;
+    height: 25px;color: white;
 }
 #status9{
     width: 45%;
     height: 25px;
+    color: white;
 }
 #status10{
     width: 75%;
     height: 25px;
+    color: white;
 }
 #status11{
     width: 40%;
@@ -121,7 +126,7 @@ body {
 }
 
 .main-content-vaardigheden {
-    height: 3300px;
+    height: 2700px;
 }
 
 .main-content-text h1 {
@@ -343,7 +348,12 @@ body {
     text-decoration: none;
     list-style-type: none;
 }
-
+.name-tagg a {
+    text-decoration: none;
+}
+.name-tagg a:hover {
+    text-decoration: underline;
+}
 .modal {
     display: none;
     position: fixed;
