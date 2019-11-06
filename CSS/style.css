@@ -98,6 +98,7 @@ body {
 #status11{
     width: 40%;
     height: 25px;
+    color: white;
 }
 
 .main-content {
@@ -272,7 +273,7 @@ body {
     background-color: white;
     padding: 10px 0;
     position: relative;
-    z-index: 1;
+    z-index: auto;
     margin-left: 250px;
     margin-top: 30px;
 }
