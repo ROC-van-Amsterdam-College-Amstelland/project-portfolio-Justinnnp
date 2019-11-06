@@ -17,7 +17,7 @@
                     <li><a class="active" href="index.html">Home</a></li>
                     <li><a href="projecten.html">Projecten</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <li><a href="nieuws.html">Nieuws</a></li>
+                    <!-- <li><a href="nieuws.html">Nieuws</a></li> -->
                     <li><a href="over-mij.html">Over mij</a></li>
                     <li><a href="vaardigheden.html">Vaardigheden</a></li>
                 </ul>
@@ -32,7 +32,8 @@
             <div class="main-content-text">
                 <h1 id="title-home">Wie ben ik ?</h1>
                 <hr>
-                <p id="text-inleidend">Ik ben een beginnend developer en ik ben al een aantal jaren bezig met coderen. Ik heb het altijd
+                <p id="text-inleidend">Ik ben een beginnend developer en ik ben al een aantal jaren bezig met coderen.
+                    Ik heb het altijd
                     leuk gevonden om te doen. Op dit
                     moment doe ik de opleiding Applicatie Ontwikkelaar aan het ROC in Amstelveen. Hier leer ik HTML,
                     CSS, Javascript, Balsamiq. Naast coderen hou ik erg van sporten zoals fietsen, klimmen en naar de
@@ -45,39 +46,40 @@
                     <div class="slideshow-inner">
                         <div class="mySlides fade">
 
-                            <img src='Images/image1.jpg' style='width: 100%; height:600px;' onclick="change(1)" class="img1"
-                                alt="Plaatje van Justin" />
+                            <img src='Images/image1.jpg' style='width: 100%; height:600px;' onclick="change(1)"
+                                class="img1" alt="Plaatje van Justin" />
                             <div class="text">Justin Plein.</div>
                         </div>
 
                         <div class="mySlides fade">
 
-                            <img src='Images/image2.jpg' style='width: 100%; height:600px;' onclick="change(2)" class="img2"
-                                alt="Justin is aan het klimmen." />
+                            <img src='Images/image2.jpg' style='width: 100%; height:600px;' onclick="change(2)"
+                                class="img2" alt="Justin is aan het klimmen." />
                             <div class="text">Justin Plein klimmend.</div>
                         </div>
 
                         <div class="mySlides fade">
 
-                            <img src='Images/image3.jpg' style='width: 100%; height:600px;' onclick="change(3)" class="img3"
-                                alt="Justin aan het werken" />
+                            <img src='Images/image3.jpg' style='width: 100%; height:600px;' onclick="change(3)"
+                                class="img3" alt="Justin aan het werken" />
                             <div class="text">Justin Plein werkend.</div>
                         </div>
 
                         <div class="mySlides fade">
 
-                            <img src='Images/image4.jpg' style='width: 100%; height:600px;' onclick="change(4)" class="img4"
-                                alt="De kat van Justin" />
+                            <img src='Images/image4.jpg' style='width: 100%; height:600px;' onclick="change(4)"
+                                class="img4" alt="De kat van Justin" />
                             <div class="text">Justin Plein's kat.</div>
                         </div>
 
                     </div>
 
-
                     <a class="prev" onclick='plusSlides(-1)'>&#10094;</a>
                     <a class="next" onclick='plusSlides(1)'>&#10095;</a>
                 </div>
-                <br />
+                <div class="likeButton">
+                    <button onclick="buttonE()" id="button1">&#128077;</button><button onclick="buttonT()" id="button2">&#128078;</button>
+                </div>
             </div>
     </main>
     <footer>
@@ -86,12 +88,15 @@
                 <li><a href="#">Dinsdag 5 November 2019 </a></li>
                 <li><a href="https://github.com/Justinnnp" target="_blank">GitHub</a></li>
                 <li><a href="https://www.linkedin.com/learning/me?u=57684913" target="_blank">LinkedIn</a></li>
-                <li><a href="file:///C:/Users/infoj/OneDrive%20-%20ROCvA,%20ROCvF%20en%20VOvA/Projectweek/CV-Justin-Plein%20Nov.%20'19.pdf" target="_blank">CV</a></li>
+                <li><a href="file:///C:/Users/infoj/OneDrive%20-%20ROCvA,%20ROCvF%20en%20VOvA/Projectweek/CV-Justin-Plein%20Nov.%20'19.pdf"
+                        target="_blank">CV</a></li>
                 <li><a href="mailto:justin.plein1@student.rocva.nl?Subject=Hello%20again" target="_top">email</a></li>
             </ul>
         </div>
     </footer>
     <script src="JavaScript/script.js"></script>
+    <script src="JavaScript/home.js"></script>
+    <script src="JavaScript/home2.js"></script>
 </body>
 
 </html>

@@ -129,6 +129,9 @@ body {
 .main-content-vaardigheden {
     height: 2700px;
 }
+.main-content-contact {
+    height: 100px;
+}
 
 .main-content-text h1 {
     margin-left: 740px;
@@ -142,7 +145,7 @@ body {
     padding: 30px;
 }
 #maincontent-overmij {
-    height: 2100px;
+    height: 2200px;
 }
 
 .main-content-image img {
@@ -267,6 +270,11 @@ body {
 .enlarged {
     width: 400px;
     height: 300px;
+}
+.counter {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
 }
 
 .contact {
@@ -401,6 +409,26 @@ body {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
+}
+#result {
+    margin-left: 10px;
+}
+.likeButton {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.likeButton button {
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    background-color: gray;
+}
+#button1 {
+    background-color: green;
+}
+#button2 {
+    background-color: red;
 }
 
 .footer-nav {
