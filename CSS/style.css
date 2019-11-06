@@ -418,6 +418,9 @@ body {
     justify-content: center;
     align-content: center;
 }
+.main-content-text p {
+    margin-left: 730px;
+}
 .likeButton button {
     height: 50px;
     width: 50px;
