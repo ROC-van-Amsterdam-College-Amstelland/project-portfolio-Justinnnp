@@ -127,10 +127,13 @@ body {
 }
 
 .main-content-vaardigheden {
-    height: 2700px;
+    height: 2800px;
 }
 .main-content-contact {
     height: 100px;
+}
+.main-content-home {
+    height: 2000px;
 }
 
 .main-content-text h1 {
@@ -188,6 +191,9 @@ body {
     height: 200px;
     width: 300px;
     margin-left: 700px;
+}
+#plaatje-NLvlag:hover, #plaatje-mondriaan:hover, #plaatje-portfolio:hover {
+    opacity: 0.7;
 }
 
 #NL-vlag {
